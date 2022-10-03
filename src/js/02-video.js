@@ -16,3 +16,4 @@ player
   .catch(function (error) {
     console.error(error);
   });
+  player.setCurrentTime(localStorage.getItem(LOCALSTORAGE_KEY) || 0);
